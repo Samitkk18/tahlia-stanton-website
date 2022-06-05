@@ -93,3 +93,14 @@
     float: left;
     height: 400px;
 }
+
+/* Body 5 */
+.body5-image{
+    text-align: center;
+    height:400px;
+    width:500px;
+}
+
+.body5{
+    padding: 30px;;
+}
