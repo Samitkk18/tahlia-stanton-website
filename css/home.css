@@ -1,0 +1,95 @@
+/*  navigation bar */
+
+.header{
+    width: 100%;
+}
+.logo{
+    display: block;
+    width: 110px;
+    height: 110px;
+    margin: auto;
+}
+
+.social-logos{
+    padding-top: 30px;
+    margin: auto;
+    height: 30px;
+    width: 30px;
+}
+
+/* banner image */
+.banner{
+    width: 100%;
+    height: auto;
+}
+
+/* general */
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 50%;
+    padding:10px;
+    height: 300px;
+}
+
+/* body 1 */
+.body1{
+    padding: 120px;
+}
+
+.body1-image{
+    width: 500px;
+    height:500px;
+}
+
+.body1-text{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.body1-text h1{
+    color: #ffbe99;
+    margin: 2rem 0;
+}
+
+.body1-text h4{
+    color: rgba(133, 110, 107, .9);
+    line-height: 1.47;
+}
+
+.body1-text button{
+    background-color: #e5ac57;
+    color:#fff;
+    border:0;
+    padding-left:100px;
+    padding-right: 100px;
+    padding-top:20px;
+    padding-bottom: 20px;;
+}
+
+/* body 2 slider */
+/* to be done */
+
+/* body 3 */
+.body3-text h1 {
+    color: #ffbe99;
+    margin: 2rem 0;
+}
+
+.body3-text p {
+    color: rgba(133, 110, 107, .9);
+    line-height: 1.47;
+}
+
+.body3{
+    text-align: center;
+
+}
+
+.body3-image{
+    width: 300px;
+    float: left;
+    height: 400px;
+}
