@@ -81,6 +81,7 @@
 .body3-text p {
     color: rgba(133, 110, 107, .9);
     line-height: 1.47;
+    font-weight: 400;
 }
 
 .body3{
@@ -94,6 +95,17 @@
     height: 400px;
 }
 
+.body3 button {
+    background-color: #e5ac57;
+    color: #fff;
+    border: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    ;
+}
+
 /* Body 5 */
 .body5-image{
     text-align: center;
@@ -103,4 +115,71 @@
 
 .body5{
     padding: 30px;;
+}
+
+/* body7 */
+.body7-image{
+    text-align: center;
+    height: 400px;
+    width: 500px;
+    float: right;
+}
+
+.body7-text{
+    float:left;
+}
+.body7 h1{
+    color: #e9bb86;
+    /* text-align: center; */
+}
+
+.body7 h2{
+    color: #db9b76;
+    /* text-align: center; */
+}
+
+.body7 button {
+    text-align: center;
+    background-color: #e5ac57;
+    color: #fff;
+    border: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    ;
+}
+
+.body7{
+    padding-bottom: 100px;
+}
+
+/* body 9 */
+.body9{
+}
+.body9-image{
+    height: 400px;
+    width:400px;
+    padding: 0;
+}
+
+.body9-text{
+    color: rgba(0, 0, 0, .38);
+    text-align: center;
+}
+
+/* footer */
+.footer-links{
+    display: inline;
+    padding :10px;
+}
+
+.footer ul{
+    list-style: none;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    color: #db9b76;
 }

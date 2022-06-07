@@ -1,0 +1,75 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 20px;
+}
+
+.grid-item {
+    font-size: 30px;
+    text-align: center;
+}
+
+img{
+    height: 300px;
+    width: 250px;;
+}
+
+h5{
+    color: rgba(133, 110, 107, .9);
+}
+
+h6{
+    color: #e7b56e;
+}
+
+.img-top{
+    display: none;
+}
+
+.image2:hover {
+    content: url("https://images.squarespace-cdn.com/content/v1/6110ebaa24fd1f061059178d/1651667722601-ZTWT3F2WN8LPPE1Y7VLR/Screen+Shot+2022-05-04+at+10.26.35+pm.png?format=1500w");
+}
+
+.image4:hover{
+    content:url("https://images.squarespace-cdn.com/content/v1/6110ebaa24fd1f061059178d/1640772592368-ABSVRCPFJA7ND113MTAH/day+2.jpg?format=1500w");
+}
+
+.image5:hover{
+    content:url("https://images.squarespace-cdn.com/content/v1/6110ebaa24fd1f061059178d/1640767011983-JHRECB0SO5CKU88WRRQO/%2522Oasis%2522%2BUpload.jpg?format=1500w");
+}
+
+.image7:hover{
+    content:url("https://images.squarespace-cdn.com/content/v1/6110ebaa24fd1f061059178d/1641166922735-WD27ZPALECP68U0QPT96/Screen+Shot+2021-12-29+at+9.03.50+pm.png?format=1000w")
+}
+
+.image8:hover{
+    content:url("https://images.squarespace-cdn.com/content/v1/6110ebaa24fd1f061059178d/1633608387100-EIMAH6K1JWVV4YGA6AFD/Symphony.jpg?format=1000w")
+}
+
+.image11:hover{
+    content:url("https://images.squarespace-cdn.com/content/v1/6110ebaa24fd1f061059178d/1636429249983-6YPU3JOL4K8ZPNP6IIDO/sf5.jpg?format=1000w")
+}
+
+.image14:hover{
+    content:url("https: //images.squarespace-cdn.com/content/v1/6110ebaa24fd1f061059178d/1629417728908-LSD37JL95SONWVORRK9P/NEXT+STEP.jpg?format=1500w")
+}
+
+.image1-t:hover {
+    content: url("https: //images.squarespace-cdn.com/content/v1/6110ebaa24fd1f061059178d/1637462869061-2D6LBHI5OTG8PC1VF6K4/Lion+tapestry+1.jpg?format=1000w")
+}
+
+.image2-t:hover {
+    content: url("https: //images.squarespace-cdn.com/content/v1/6110ebaa24fd1f061059178d/1644282500488-SL8Q8YVZ31HV8LCO2C5I/Screen+Shot+2022-02-08+at+12.04.36+pm.png?format=1000w")
+}
+
+.image3-t:hover {
+    content: url("https: //images.squarespace-cdn.com/content/v1/6110ebaa24fd1f061059178d/1628600093733-UTGBUSCED0YHYQ3TGF1A/unnamed-2.jpg?format=1000w")
+}
+
+.image4-t:hover {
+    content: url("https: //images.squarespace-cdn.com/content/v1/6110ebaa24fd1f061059178d/1637462276558-TV08I7YB34J6SUTGQ7CR/Equinox+tapestry+3.jpg?format=1000w")
+}
+
+.image5-t:hover{
+    content:url("https: //images.squarespace-cdn.com/content/v1/6110ebaa24fd1f061059178d/1637462013970-42WFG4MWSR0Z9H1DWJDZ/Embrace+tapesry+2.jpg?format=1000w")
+}
