@@ -155,8 +155,6 @@
 }
 
 /* body 9 */
-.body9{
-}
 .body9-image{
     height: 400px;
     width:400px;
@@ -182,4 +180,18 @@
 .footer{
     text-align: center;
     color: #db9b76;
+}
+
+/* Education page css */
+.form-field{
+    border:1px solid #E4973A;
+    padding: 20px;
+    text-align: center;
+}
+
+.forms button{
+    background-color: #E4973A;
+    color: white;
+    border: none;
+    padding: 20px 30px;
 }

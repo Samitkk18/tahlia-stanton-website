@@ -2,9 +2,85 @@
     <head>
         <title>Prints - Tahlia Stanton</title>
         <link href="./css/prints.css" rel="stylesheet" />
+        <style>
+            .navbar,
+            .socials,
+            .second {
+                list-style-type: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+            }
+        
+            .social-link,
+            .nav-link {
+                padding: 2px;
+                color: #ac8c75;
+            }
+        
+            .first {
+                margin-left: auto;
+                margin-right: auto;
+                padding-right: 80px;
+                ;
+        
+            }
+        
+            .bottom {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        
+            .dropdown1 {
+                display: none;
+            }
+        
+            .dropbtn:hover+.dropdown1 {
+                display: block;
+        
+            }
+        </style>
     </head>
     <body>
         <!-- Navigation Bar -->
+        <div class="navbar">
+            <!-- social media links -->
+            <ul class="socials">
+                <li class="social-link"><img src="./images/icons/instagram.svg"
+                        style="color:#ac8c75; height:20px; width:20px;" /></li>
+                <li class="social-link"><img src="./images/icons/facebook.svg"
+                        style="color:#ac8c75; height:20px; width:20px;" /></li>
+                <li class="social-link"><img src="./images/icons/pinterest.svg"
+                        style="color:#ac8c75; height:20px; width:20px;" /></li>
+                <li class="social-link"><img src="./images/icons/youtube.svg" style="color:#ac8c75; height:20px; width:20px;" />
+                </li>
+            </ul>
+            <img class="first" src="./images/logo.jpg" style="width:100px; height:100px;" />
+            <img src="./images/icons/cart.svg" style="color:#ac8c75; height:20px; width:20px; padding: 14px;" />
+        </div>
+        <div class="bottom">
+            <a class="nav-link">HOME</a>
+            <a class="nav-link dropbtn">SHOP</a>
+            <div class="dropdown1">
+                <ul>
+                    <li>Prints</li>
+                    <li>Originals</li>
+                    <li>Tapestries</li>
+                </ul>
+            </div>
+            <a class="nav-link">EDUCATION</a>
+            <a class="nav-link dropbtn">ABOUT</a>
+            <div class="dropdown1">
+                <ul>
+                    <li>Bio</li>
+                    <li>Giving Back</li>
+                    <li>Contact</li>
+                    <li>FAQS</li>
+                </ul>
+            </div>
+            </ul>
+        </div>
 
         <!-- Images with text and images change when howered over -->
         <div class="grid-container">
