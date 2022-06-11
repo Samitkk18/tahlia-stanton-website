@@ -13,7 +13,7 @@ body{
     display: flex;
     /* flex-direction: row; */
     flex-wrap: wrap;
-    /* padding: 25px 0; */
+    padding: 25px 0;
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -69,7 +69,7 @@ body{
     padding-left: 20px;
     /* padding-right: 200px; */
     max-width: 100%;
-    max-height: 727px;
+    max-height: 100%;
     position: relative;
     overflow: hidden;
 }
@@ -115,23 +115,23 @@ body{
 
 
 .about2{
-    max-width: 100%;
-    max-height: 296px;
+    max-width: 90%;
+    max-height: 90%;
     position: relative;
     overflow: hidden;
-    padding-top: 84.75px; 
-    padding-left: 130px; 
-    padding-right: 20px;
+    padding-top: 80px; 
+    padding-left: 30px; 
+    /* padding-right: 20px; */
     
 }
 
 .about3{
-    max-width: 100%;
-    max-height: 381px;
+    max-width: 90%;
+    max-height: 100%;
     position: relative;
     overflow: hidden;
     padding-left: 20px; 
-    padding-right: 130px;
+    /* padding-right: 30px; */
 }
 
 @media (max-width: 900px) {
@@ -148,7 +148,8 @@ body{
         padding: 0;
         padding-bottom: 10px;
         flex: 100%;
-        max-width: 100%;
+        max-width: 90%;
+        max-height: 90%;
     }
     
     .about3{
@@ -158,7 +159,8 @@ body{
         padding: 0;
         padding-top: 10px;
         flex: 100%;
-        max-width: 100%;
+        max-width: 90%;
+        max-height: 90%;
     }
   }
 
@@ -243,8 +245,8 @@ body{
     /* flex-direction: row; */
     flex-wrap: wrap;
     padding: 25px 0;
-    padding-left: 130px;
-    padding-right: 130px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .column3 {
@@ -253,7 +255,7 @@ body{
 }
 
 .column3 p{
-    padding-left: 20px;
+    padding-left: 30px;
     /* padding-right: 130px; */
     margin: 2rem 0;
     text-align: center;
@@ -266,7 +268,7 @@ body{
     font-size: 24px;
 }
 .column3 h3{
-    padding-left: 20px;
+    padding-left: 30px;
     /* padding-right: 130px; */
     color: #db9b76;
     font-size: 44px;
@@ -282,9 +284,9 @@ body{
 
 .column3 img{
     /* padding-left: 130px; */
-    padding-right: 20px;
+    padding-right: 30px;
     max-width: 100%;
-    max-height: 637px;
+    max-height: 100%;
     position: relative;
     overflow: hidden;
 }
