@@ -4,10 +4,159 @@ body{
     background-color: white;
 }
 
-.giving-back-wrapper{
+.artist-wrapper{
     background-color: #FEFBF5;
     color: #a08561;
-    margin: 25px 0;
+    /* margin: 25px 0; */
+}
+
+h1{
+    margin: 0;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    font-family: ivymode;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .05em;
+    text-transform: none;
+    font-size: 59px;
+    text-align: center;
+    white-space: pre-wrap;
+    color: #e9bb86;
+}
+
+.row {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* padding: 25px 0; */
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.column {
+    flex: 50%;
+    max-width: 50%;
+}
+
+.column img{
+    padding-right: 20px;
+    max-width: 100%;
+    max-height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.column h3{
+    /* padding-top: 30px; */
+    padding-left: 20px;
+    color: #db9b76;
+    font-size: 32px;
+    line-height: 1.44;
+    text-align: center;
+    white-space: pre-wrap;
+    font-family: ivymode;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .05em;
+    text-transform: none;
+}
+
+@media (max-width: 900px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+        text-align: center !important;
+    }
+    .column h3{
+        text-align: center !important;
+        /* padding: 0 40px; */
+    }
+    
+    .column img{
+        text-align: center !important;
+        padding: 0;
+    }
+  }
+
+@media (max-width: 1300px) {
+
+    .column h3{
+        text-align: center !important;
+        /* padding: 0 40px; */
+        font-size: 24px !important;
+    }
+    
+
+  }
+
+  .row2 {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* padding: 25px 0; */
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.column2 {
+    flex: 50%;
+    max-width: 50%;
+}
+
+.column2 img{
+    max-width: 100%;
+    max-height: auto;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.gb2{
+    padding-left: 30px;
+}
+.gb3{
+    padding-right: 30px;
+}
+
+@media (max-width: 900px) {
+    .column2 {
+        flex: 100%;
+        max-width: 100%;
+        text-align: center !important;
+    }
+    
+    .column2 img{
+        text-align: center !important;
+        padding-bottom: 20px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .gb2{
+        padding-left: 0;
+    }
+    .gb3{
+        padding-right: 0;
+    }
+    
+}
+
+  .row3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 100px 120px;
+}
+
+.row3 p{
+    margin: 14px 0;
+    font-size: 24px;
+    font-family: futura-pt;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: none;
+    line-height: 1.44;
+    text-align: center;
 }
 
 .footer{
@@ -37,75 +186,9 @@ body{
     padding: 0 10%;
 }
 
+
 @media (max-width: 900px) {
     .footer {
         text-align: center !important;
     }
 }
-
-h1{
-    padding-top: 25px;
-    font-family: ivymode;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: .05em;
-    text-transform: none;
-    font-size: 59px;
-    text-align: center;
-    white-space: pre-wrap;
-    color: #e9bb86;
-}
-
-.row {
-    display: flex;
-    /* flex-direction: row; */
-    flex-wrap: wrap;
-    padding: 25px 0;
-    padding-left: 200px;
-    padding-right: 150px;
-}
-
-.column {
-    flex: 50%;
-    max-width: 50%;
-}
-
-.column img{
-    padding-right: 20px;
-    max-width: 100%;
-    max-height: 420px;
-    position: relative;
-    overflow: hidden;
-}
-
-.column h3{
-    padding-top: 30px;
-    padding-left: 20px;
-    color: #db9b76;
-    font-size: 32px;
-    line-height: 1.44;
-    text-align: center;
-    white-space: pre-wrap;
-    font-family: ivymode;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: .05em;
-    text-transform: none;
-}
-
-@media (max-width: 900px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-        text-align: center !important;
-    }
-    .column h3{
-        text-align: center !important;
-        padding: 0 40px;
-    }
-    
-    .column img{
-        text-align: center !important;
-        padding: 0;
-    }
-  }
