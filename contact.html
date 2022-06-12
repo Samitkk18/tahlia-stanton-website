@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact - Tahila Stanton</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!-- The sidebar -->
+        <div class="sidebar" id="myTopnav">
+            <a href="" class="image"><img src="images/logo.jpg" alt=""></a>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Education</a>
+            <a class="active" href="#">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+        </div>
+        
+        <!-- Page content -->
+        <div class="content">
+           <div class="contact-wrapper">
+               <div class="row">
+                   <div class="column">
+                        <img src="images/contact2.png" alt="">
+                   </div>
+                   <div class="column">
+                       <h1>Let's Talk!</h1>
+                       <p>Have a question? Our <b>FAQ</b> page may have the answer! Click <a href="#" style="text-decoration: underline; color: #e9bb86">here</a> to visit</p>
+                       <p>Please feel free to email my studio with any questions, comments, or just to reach out. <i>My lovely secretary, Oriel, will take good care of you.</i></p>
+                       <div class="button"><a href="#">Visit The FAQ Page</a></div>
+                </div>
+               </div>
+
+            <div class="footer">
+                <p>FIND ME ON INSTAGRAM</p>
+                <div class="image-align">
+                    <img src="images/footer.png" alt="">
+                </div>
+            </div>
+           </div>
+        </div>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "sidebar") {
+                x.className += " responsive";
+              } else {
+                x.className = "sidebar";
+              }
+            }
+            </script>
+    </body>
+</html>

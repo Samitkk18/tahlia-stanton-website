@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.contact-wrapper{
+    background-color: #FEFBF5;
+    color: #a08561;
+    /* margin: 25px 0; */
+}
+.row {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    padding: 25px 0;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.column {
+    flex: 50%;
+    max-width: 50%;
+}
+
+.column img{
+    padding-right: 40px;
+    /* padding-right: 200px; */
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.column h1{
+    /* padding-left: 200px; */
+    padding-left: 40px;
+    font-family: ivymode;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .05em;
+    text-transform: none;
+    font-size: 59px;
+    text-align: left;
+    white-space: pre-wrap;
+    color: #e9bb86;
+}
+
+.column p{
+    /* padding-left: 200px; */
+    padding-left: 40px;
+    margin: 2rem 0;
+    text-align: left;
+    white-space: pre-wrap;
+    display: block;
+    font-family: futura-pt;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    font-size: 24px;
+}
+
+.button {
+    background-color: #E5AC57;
+    color: white;
+    max-width: 450px;
+    margin: 0 40px;
+    padding: 10px 0;
+    line-height: 50px;
+    text-align: center;
+    
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: brandon-grotesque;
+    font-weight: 900;
+    font-style: normal;
+    line-height: undefined;
+    letter-spacing: .22em;
+    font-size: 1.2rem;
+}
+@media (max-width: 900px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+        text-align: center !important;
+    }
+    .column h1{
+        text-align: left !important;
+        padding: 0;
+    }
+    .column p{
+        text-align: left !important;
+        padding: 0;
+    }    
+    .column img{
+        text-align: center !important;
+        padding: 0;
+    }
+    .button {
+        margin: 0;
+    }
+  }
+
+
+
+
+
+
+
+
+
+  .footer{
+    background-color: #FFF3EA;
+    padding: 40px 0;
+}
+
+.footer p{
+    color: rgba(0,0,0,.38);
+    font-family: brandon-grotesque;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .04em;
+    text-transform: none;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+.footer img{
+    max-width: 100%;
+    max-height: 561px;
+    display: inline-flex;
+    margin: 50px auto;
+}
+
+.image-align{
+    padding: 0 10%;
+}
+
+@media (max-width: 900px) {
+    .footer {
+        text-align: center !important;
+    }
+}
