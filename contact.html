@@ -17,9 +17,31 @@
         <div class="sidebar" id="myTopnav">
             <a href="" class="image"><img src="images/logo.jpg" alt=""></a>
             <a href="#">Home</a>
-            <a href="#">Shop</a>
-            <a href="#">Education</a>
-            <a class="active" href="#">About</a>
+            <div class="dropdown">
+              <a href="#">Shop</a>
+              <div class="dropdown-content">
+                <a href="#">Prints</a>
+                <a href="#">Originals</a>
+                <a href="#">Tapestries</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <a href="#">Education</a>
+              <div class="dropdown-content">
+                <a href="#">Free MasterClass</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <a class="active" href="#">About</a>
+              <div class="dropdown-content">
+                <a href="#">Bio</a>
+                <a href="#">Giving-Back</a>
+                <a href="#">Contact</a>
+                <a href="#">FAQs</a>
+              </div>
+            </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
               </a>
@@ -39,7 +61,41 @@
                        <div class="button"><a href="#">Visit The FAQ Page</a></div>
                 </div>
                </div>
-
+               <div class="row2">
+                   <h1>Join The Collector's Club</h1>
+                   <p>Get my studio newsletter and be the first to hear about new releases and enjoy member exclusive bonuses</p>
+                   <form action="#">
+                    <input type="text" id="fname" name="firstname" placeholder="First name..">
+                    <input type="text" id="lname" name="lastname" placeholder="Last name..">
+                    <input type="text" id="email" name="email" placeholder="Email Address..">
+                   </form>
+                   <div class="button1"><a href="#">Sign Me Up!</a></div>
+               </div>
+               <div class="row3">
+                   <h1>Send a Letter!</h1>
+                   <p>Our office hours are 9:30am - 5:30pm Wednesday - Friday Melbourne time. Please expect initial responses and all replies to occur during office hours, when Oriel is in the studio and here to help you💛</p>
+                    <label for="name">Name *</label>
+                    <br>
+                    <input class="input1" type="text" id="fname" name="firstname" placeholder="First Name..">
+                    <input class="input1" type="text" id="lname" name="lastname" placeholder="Last Name..">
+                    <br>
+                    <label for="name">Email Address *</label>
+                    <br>
+                    <input class="input2" type="text" id="email" name="email" placeholder="Email Address..">
+                    <br>
+                    <label for="name">Order Number</label>
+                    <br>
+                    <br>
+                    <span>* If Applicable *</span>
+                    <br>
+                    <br>
+                    <input class="input2" type="text" id="fname" name="firstname" placeholder="#0000">
+                    <br>
+                    <label for="name">Send a Message *</label>
+                    <br>
+                    <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+                    <div class="button2"><a href="#">Send My Letter</a></div>
+                </div>
             <div class="footer">
                 <p>FIND ME ON INSTAGRAM</p>
                 <div class="image-align">

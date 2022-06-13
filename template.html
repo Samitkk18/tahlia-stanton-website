@@ -8,7 +8,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/about-new.css">
+        <!-- <link rel="stylesheet" href="css/about-new.css"> -->
         <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
@@ -16,10 +16,32 @@
         <!-- The sidebar -->
         <div class="sidebar" id="myTopnav">
             <a href="" class="image"><img src="images/logo.jpg" alt=""></a>
-            <a href="#">Home</a>
-            <a href="#">Shop</a>
-            <a href="#">Education</a>
-            <a class="active" href="#">About</a>
+            <a class="active" href="#">Home</a>
+            <div class="dropdown">
+              <a href="#">Shop</a>
+              <div class="dropdown-content">
+                <a href="#">Prints</a>
+                <a href="#">Originals</a>
+                <a href="#">Tapestries</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <a href="#">Education</a>
+              <div class="dropdown-content">
+                <a href="#">Free MasterClass</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <a href="#">About</a>
+              <div class="dropdown-content">
+                <a href="#">Bio</a>
+                <a href="#">Giving-Back</a>
+                <a href="#">Contact</a>
+                <a href="#">FAQs</a>
+              </div>
+            </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
               </a>
