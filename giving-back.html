@@ -17,9 +17,31 @@
         <div class="sidebar" id="myTopnav">
             <a href="" class="image"><img src="images/logo.jpg" alt=""></a>
             <a href="#">Home</a>
-            <a href="#">Shop</a>
-            <a href="#">Education</a>
-            <a class="active" href="#">About</a>
+            <div class="dropdown">
+              <a href="#">Shop</a>
+              <div class="dropdown-content">
+                <a href="#">Prints</a>
+                <a href="#">Originals</a>
+                <a href="#">Tapestries</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <a href="#">Education</a>
+              <div class="dropdown-content">
+                <a href="#">Free MasterClass</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <a class="active" href="#">About</a>
+              <div class="dropdown-content">
+                <a href="#">Bio</a>
+                <a href="#">Giving-Back</a>
+                <a href="#">Contact</a>
+                <a href="#">FAQs</a>
+              </div>
+            </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
               </a>
