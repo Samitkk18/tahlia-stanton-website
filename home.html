@@ -19,8 +19,8 @@
         </div>
         <!-- The sidebar -->
         <div class="sidebar" id="myTopnav">
-            <a href="" class="image"><img src="./images/FAQs - Tahila Stanton_files/logo-removebg-preview.png" alt=""></a>
-            <a href="#">Home</a>
+            <a href="home.html" class="image"><img src="./images/FAQs - Tahila Stanton_files/logo-removebg-preview.png" alt=""></a>
+            <a class="active" href="#">Home</a>
             <div class="dropdown">
               <a href="#">Shop</a>
               <div class="dropdown-content">
@@ -38,7 +38,7 @@
             </div>
 
             <div class="dropdown">
-              <a class="active" href="#">About</a>
+              <a href="#">About</a>
               <div class="dropdown-content">
                 <a href="bio.html">Bio</a>
                 <a href="giving-back.html">Giving-Back</a>
@@ -61,6 +61,17 @@
                         <p>Add a splash of joy to your home</p>
                         <div class="button"><a href="./prints.html">Shop Now</a></div>
                     </div>
+                </div>
+                <div class="carousel">
+                    <img class="mySlides" src="images/ss1.png" style="width:100%">
+                    <img class="mySlides" src="images/ss2.png" style="width:100%">
+                    <img class="mySlides" src="images/ss3.png" style="width:100%">
+                    <img class="mySlides" src="images/ss4.png" style="width:100%">
+                    <img class="mySlides" src="images/ss5.png" style="width:100%">
+                    <img class="mySlides" src="images/ss6.png" style="width:100%">
+                    <img class="mySlides" src="images/ss7.png" style="width:100%">
+                    <a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
+                    <a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
                 </div>
                 <div class="row2">
                     <div class="column2">
@@ -109,4 +120,23 @@
                 </div>
             </div>
     </body>
+    <script>
+        var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = x.length} ;
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+    </script>
 </html>
