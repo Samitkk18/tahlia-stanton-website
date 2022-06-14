@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dimitra Milan Art | Fine Art | Home Decor</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="stylesheet" href="css/about-new.css"> -->
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="./css/home.css" />
+    <style>
+        .navbar,
+        .socials,
+        .second {
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+    
+        .social-link,
+        .nav-link {
+            padding: 2px;
+            color: #ac8c75;
+        }
+    
+        .first {
+            margin-left: auto;
+            margin-right: auto;
+            padding-right: 80px;
+            ;
+    
+        }
+    
+        .bottom {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .dropdown1 {
+            display: none;
+        }
+    
+        .dropbtn:hover+.dropdown1 {
+            display: block;
+    
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- The sidebar -->
+    <div class="sidebar" id="myTopnav">
+        <a href="" class="image"><img src="images/logo.jpg" alt=""></a>
+        <a class="active" href="#">Home</a>
+        <div class="dropdown">
+            <a href="#">Shop</a>
+            <div class="dropdown-content">
+                <a href="#">Prints</a>
+                <a href="#">Originals</a>
+                <a href="#">Tapestries</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="#">Education</a>
+            <div class="dropdown-content">
+                <a href="#">Free MasterClass</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="#">About</a>
+            <div class="dropdown-content">
+                <a href="#">Bio</a>
+                <a href="#">Giving-Back</a>
+                <a href="#">Contact</a>
+                <a href="#">FAQs</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+        <!-- COPY YOUR CODE HERE -->
+        <!-- banner image -->
+        <img class="banner" src="./images/banner.jpg" />
+        
+        <!-- body 1
+                    -image and text
+                 -->
+        <div class="row body1">
+            <div class="column">
+                <img class="body1-image" src="./images/body1.jpg" />
+            </div>
+            <div class="column body1-text">
+                <h1>Fine Art <br> Prints</h1>
+                <h4>Add a splash of joy to your home</h4>
+                <button>Shop Now</button>
+            </div>
+        </div>
+        
+        <!-- testimonials body 2
+                    - insta images slider type
+                 -->
+        <h1>Slider: To be done</h1>
+        
+        <!-- body 3
+                    -image and text
+                 -->
+        <div class="row body3">
+            <div class="column body3-text">
+                <h1>Wlecome To <br> My Studio</h1>
+                <p>I'M TAHLIA STANTON</p>
+                <p>Artist, educator and director</p>
+                <p>I’m 22 years old and have been a <br> professional, full-time artist for five years;<br> self-representing
+                    and sharing my work<br>
+                    with thousands of collectors across the globe</p>
+                <button>LEARN ABOUT MY WORK</button>
+            </div>
+            <div class="column">
+                <img class="body3-image" src="./images/body3.jpg" />
+            </div>
+        </div>
+        
+        
+        <!-- body 4
+                    -plane picture
+                 -->
+        <div>
+            <h1>find this picture</h1>
+        </div>
+        
+        <!-- body 5
+                    - 2 cards
+                 -->
+        <div class="row body5">
+            <div class="column">
+                <img class="body5-image" src="./images/body5-1.jpg" style="float: right;" />
+        
+            </div>
+            <div class="column">
+                <img class="body5-image" src="./images/body5-2.jpg" style="float: left;" />
+            </div>
+        </div>
+        
+        
+        <!-- body 6 
+                    -image
+                -->
+        <br><br><br>
+        <h1>Find this image</h1>
+        
+        <!-- body 7 image and text  -->
+        <div class="row body7">
+            <div class="column">
+                <img class="body7-image" src="./images/body7.jpg" />
+            </div>
+            <div class="column body7-text">
+                <h1>Woven Tapestries</h1>
+                <h2>A Symphony Of Functionality, Versatility And<br>
+                    Inspiration. Peruse A Collection Of Wonderfully<br>
+                    Versatile, Artful Blankets.</h2>
+                <button>SHOP TAPESTRIES</button>
+            </div>
+        </div>
+        
+        <!-- Body 8 image -->
+        <br>
+        <h1>Find Image</h1><br>
+        
+        <!--  body 9 image x 2 -->
+        <br>
+        <div class="body9">
+            <h2 class="body9-text">FIND ME ON INSTAGRAM</h2>
+            <div class="row body5">
+                <div class="column">
+                    <img class="body9-image" src="./images/body9-1.jpeg" style="float: right;" />
+        
+                </div>
+                <div class="column">
+                    <img class="body9-image" src="./images/body9-2.jpeg" style="float: left;" />
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+
+
+        <!-- footer -->
+        <div class="footer">
+            <ul>
+                <li class="footer-links"><img src="./images/icons/instagram.svg"
+                        style="color:#ac8c75; height:20px; width:20px;" /></li>
+                <li class="footer-links"><img src="./images/icons/facebook.svg"
+                        style="color:#ac8c75; height:20px; width:20px;" /></li>
+                <li class="footer-links"><img src="./images/icons/pinterest.svg"
+                        style="color:#ac8c75; height:20px; width:20px;" /></li>
+                <li class="footer-links"><img src="./images/icons/youtube.svg"
+                        style="color:#ac8c75; height:20px; width:20px;" /></li>
+            </ul>
+            <h3>&copy; 2021, Tahlia Stanton <u>Terms and Conditions</u></h3>
+        </div>
+        <!-- Mostly youll need to remove your previous css a bit to adjust it So take a look -->
+    </div>
+
+</html>
