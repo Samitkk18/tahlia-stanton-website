@@ -36,15 +36,15 @@
             <div class="dropdown">
               <a class="active" href="#">About</a>
               <div class="dropdown-content">
-                <a href="#">Bio</a>
-                <a href="#">Giving-Back</a>
-                <a href="#">Contact</a>
-                <a href="#">FAQs</a>
+                <a href="bio.html">Bio</a>
+                <a href="giving-back.html">Giving-Back</a>
+                <a href="contact.html">Contact</a>
+                <a href="faqs.html">FAQs</a>
               </div>
             </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
-              </a>
+            </a> -->
         </div>
         
         <!-- Page content -->
@@ -70,6 +70,15 @@
                 <div class="row3">
                     <p>It is a great honour to sponsor programs that are making a difference in our world. Thank you so much for the kindness, love and care you share that helps us make a difference too.</p>
                 </div>
+                <div class="carousel">
+                  <img class="mySlides" src="images/c1.png" style="width:100%">
+                  <img class="mySlides" src="images/c2.png" style="width:100%">
+                  <img class="mySlides" src="images/c3.png" style="width:100%">
+                  <img class="mySlides" src="images/c4.png" style="width:100%">
+                  <img class="mySlides" src="images/c5.png" style="width:100%">
+                  <a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
+                  <a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
+                  </div>
                 <div class="footer">
                     <p>FIND ME ON INSTAGRAM</p>
                     <div class="image-align">
@@ -79,13 +88,31 @@
             </div>
         </div>
         <script>
-            function myFunction() {
-              var x = document.getElementById("myTopnav");
-              if (x.className === "sidebar") {
-                x.className += " responsive";
-              } else {
-                x.className = "sidebar";
+            // function myFunction() {
+            //   var x = document.getElementById("myTopnav");
+            //   if (x.className === "sidebar") {
+            //     x.className += " responsive";
+            //   } else {
+            //     x.className = "sidebar";
+            //   }
+            // }
+
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = x.length} ;
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
               }
+              x[slideIndex-1].style.display = "block";  
             }
             </script>
     </body>

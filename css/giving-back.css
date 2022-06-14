@@ -192,3 +192,12 @@ h1{
         text-align: center !important;
     }
 }
+
+.carousel{
+    max-width: 100%;
+    margin: 50px 20px;
+    /* background-color: black; */
+    padding: 10px 10px;
+    background-color: #FDEFE6;
+    position:relative;
+}
