@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 
+<html>
+
 <head>
-    <title>Free Masterclass - Tahlia Stanton</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dimitra Milan Art | Fine Art | Home Decor</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="./css/home.css" />
     <style>
         .navbar,
@@ -12,92 +19,93 @@
             flex-direction: row;
             justify-content: flex-start;
         }
-
+    
         .social-link,
         .nav-link {
             padding: 2px;
             color: #ac8c75;
         }
-
+    
         .first {
             margin-left: auto;
             margin-right: auto;
             padding-right: 80px;
             ;
-
+    
         }
-
+    
         .bottom {
             display: flex;
             justify-content: center;
             align-items: center;
         }
-
+    
         .dropdown1 {
             display: none;
         }
-
+    
         .dropbtn:hover+.dropdown1 {
             display: block;
-
+    
         }
     </style>
+    <!-- <link rel="stylesheet" href="css/about-new.css"> -->
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <!-- Navbar -->
-    <div class="navbar">
-        <!-- social media links -->
-        <ul class="socials">
-            <li class="social-link"><img src="./images/icons/instagram.svg"
-                    style="color:#ac8c75; height:20px; width:20px;" /></li>
-            <li class="social-link"><img src="./images/icons/facebook.svg"
-                    style="color:#ac8c75; height:20px; width:20px;" /></li>
-            <li class="social-link"><img src="./images/icons/pinterest.svg"
-                    style="color:#ac8c75; height:20px; width:20px;" /></li>
-            <li class="social-link"><img src="./images/icons/youtube.svg"
-                    style="color:#ac8c75; height:20px; width:20px;" /></li>
-        </ul>
-        <img class="first" src="./images/logo.jpg" style="width:100px; height:100px;" />
-        <img src="./images/icons/cart.svg" style="color:#ac8c75; height:20px; width:20px; padding: 14px;" />
-    </div>
-    <div class="bottom">
-        <a class="nav-link">HOME</a>
-        <a class="nav-link dropbtn">SHOP</a>
-        <div class="dropdown1">
-            <ul>
-                <li>Prints</li>
-                <li>Originals</li>
-                <li>Tapestries</li>
-            </ul>
+    <!-- The sidebar -->
+    <div class="sidebar" id="myTopnav">
+        <a href="" class="image"><img src="images/logo.jpg" alt=""></a>
+        <a class="active" href="#">Home</a>
+        <div class="dropdown">
+            <a href="#">Shop</a>
+            <div class="dropdown-content">
+                <a href="#">Prints</a>
+                <a href="#">Originals</a>
+                <a href="#">Tapestries</a>
+            </div>
         </div>
-        <a class="nav-link">EDUCATION</a>
-        <a class="nav-link dropbtn">ABOUT</a>
-        <div class="dropdown1">
-            <ul>
-                <li>Bio</li>
-                <li>Giving Back</li>
-                <li>Contact</li>
-                <li>FAQS</li>
-            </ul>
+
+        <div class="dropdown">
+            <a href="#">Education</a>
+            <div class="dropdown-content">
+                <a href="#">Free MasterClass</a>
+            </div>
         </div>
-        </ul>
+
+        <div class="dropdown">
+            <a href="#">About</a>
+            <div class="dropdown-content">
+                <a href="#">Bio</a>
+                <a href="#">Giving-Back</a>
+                <a href="#">Contact</a>
+                <a href="#">FAQs</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
 
-    <!-- Body -->
-    <div style="text-align: center;">
-        <h1>Watch The Masterclass</h1>
-        <p>On Lifestyle and Product Photography</p>
-        <iframe width="795" height="447" src="https://www.youtube.com/embed/s_SdWghTdQc" title="YouTube video player"
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-        </iframe>
-    </div>
-
+    <!-- Page content -->
+    <div class="content">
+        <!-- COPY YOUR CODE HERE -->
+        <div style="text-align: center;">
+            <h1>Watch The Masterclass</h1>
+            <p>On Lifestyle and Product Photography</p>
+            <iframe width="795" height="447" src="https://www.youtube.com/embed/s_SdWghTdQc" title="YouTube video player"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+        
         <!-- Testimonials -->
         <div class="row">
             <div class="column">
-                <img style="width:300px; height: 600px; float: right;" src="https://images.squarespace-cdn.com/content/v1/6110ebaa24fd1f061059178d/a55842bf-407f-446e-b202-cf74897cd6c7/Modern+Earthy+Meet+the+Team+Introduction+Instagram+Story+copy.png?format=500w" />
+                <img style="width:300px; height: 600px; float: right;"
+                    src="https://images.squarespace-cdn.com/content/v1/6110ebaa24fd1f061059178d/a55842bf-407f-446e-b202-cf74897cd6c7/Modern+Earthy+Meet+the+Team+Introduction+Instagram+Story+copy.png?format=500w" />
             </div>
             <div class="column">
                 <img style="width:300px; height: 600px; float: left;"
@@ -105,48 +113,53 @@
             </div>
         </div>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+        
         <div style="text-align:center;">
             <h1 style="color: #E4973A;">Join The Pioneering Artist Circle</h1>
             <p style="color: #91776c;">Are you ready to see your brand flourish and thrive?<br>
-            Register to get access to all future educational content, freebies and more!</p>
+                Register to get access to all future educational content, freebies and more!</p>
             <form class="forms">
                 <input class="form-field" type="text" placeholder="First Name" />
                 <input class="form-field" type="text" placeholder="Last Name" />
                 <input class="form-field" type="text" placeholder="Email Address" />
-                <button >Sign Me Up</button>
+                <button>Sign Me Up</button>
             </form>
             <br><br><br><br>
-            <img style="text-align: center; width: 700px; height:500px;" src="https://images.squarespace-cdn.com/content/v1/6110ebaa24fd1f061059178d/c7c1bd60-9696-41b1-bce9-9e374e6350a9/Download+Free+Guide+-+Blog+Banner+copy.png?format=1000w"/>
+            <img style="text-align: center; width: 700px; height:500px;"
+                src="https://images.squarespace-cdn.com/content/v1/6110ebaa24fd1f061059178d/c7c1bd60-9696-41b1-bce9-9e374e6350a9/Download+Free+Guide+-+Blog+Banner+copy.png?format=1000w" />
         </div>
 
-    <!-- Footer -->
-    <div class="footer">
-        <br>
-        <div class="body9">
-            <h2 class="body9-text">FIND ME ON INSTAGRAM</h2>
-            <div class="row body5">
-                <div class="column">
-                    <img class="body9-image" src="./images/body9-1.jpeg" style="float: right;" />
+        <!-- Mostly youll need to remove your previous css a bit to adjust it So take a look -->
+
+
+        <!-- footer -->
+        <div class="footer">
+            <br>
+            <div class="body9">
+                <h2 class="body9-text">FIND ME ON INSTAGRAM</h2>
+                <div class="row body5">
+                    <div class="column">
+                        <img class="body9-image" src="./images/body9-1.jpeg" style="float: right;" />
         
-                </div>
-                <div class="column">
-                    <img class="body9-image" src="./images/body9-2.jpeg" style="float: left;" />
+                    </div>
+                    <div class="column">
+                        <img class="body9-image" src="./images/body9-2.jpeg" style="float: left;" />
+                    </div>
                 </div>
             </div>
+            <br><br><br>
+            <ul>
+                <li class="footer-links"><img src="./images/icons/instagram.svg"
+                        style="color:#ac8c75; height:20px; width:20px;" /></li>
+                <li class="footer-links"><img src="./images/icons/facebook.svg"
+                        style="color:#ac8c75; height:20px; width:20px;" /></li>
+                <li class="footer-links"><img src="./images/icons/pinterest.svg"
+                        style="color:#ac8c75; height:20px; width:20px;" /></li>
+                <li class="footer-links"><img src="./images/icons/youtube.svg"
+                        style="color:#ac8c75; height:20px; width:20px;" /></li>
+            </ul>
+            <h3>&copy; 2021, Tahlia Stanton <u>Terms and Conditions</u></h3>
         </div>
-        <br><br><br>
-        <ul>
-            <li class="footer-links"><img src="./images/icons/instagram.svg"
-                    style="color:#ac8c75; height:20px; width:20px;" /></li>
-            <li class="footer-links"><img src="./images/icons/facebook.svg"
-                    style="color:#ac8c75; height:20px; width:20px;" /></li>
-            <li class="footer-links"><img src="./images/icons/pinterest.svg"
-                    style="color:#ac8c75; height:20px; width:20px;" /></li>
-            <li class="footer-links"><img src="./images/icons/youtube.svg"
-                    style="color:#ac8c75; height:20px; width:20px;" /></li>
-        </ul>
-        <h3>&copy; 2021, Tahlia Stanton <u>Terms and Conditions</u></h3>
     </div>
 </body>
 
