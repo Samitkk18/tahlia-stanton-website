@@ -10,6 +10,17 @@ body{
     /* margin: 25px 0; */
 }
 
+.background0 img{
+    margin-bottom: 40px;
+    /* padding: 90px 0; */
+    /* background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)), url('banner.jpg'); */
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+
+}
+
 .row {
     display: flex;
     /* flex-direction: row; */
@@ -347,4 +358,14 @@ body{
     .footer {
         text-align: center !important;
     }
+}
+
+.carousel{
+    max-width: 100%;
+    margin: 50px 20px;
+    /* background-color: black; */
+    padding: 40px 40px;
+    background-color: #FFF3EA;
+    position:relative;
+    
 }
