@@ -234,3 +234,17 @@ body{
   display: none;
 }
 }
+
+.button:hover{
+  background-color: #DEA057;
+}
+.button2:hover {
+  background-color: #DEA057;
+}
+.button1:hover {
+  background-color: #DEA057;
+}
+
+.sidebar{
+  font-size: large;
+}
